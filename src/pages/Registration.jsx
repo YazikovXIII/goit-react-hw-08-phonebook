@@ -10,6 +10,7 @@ import {
   FormControl,
   FormLabel,
   ChakraProvider,
+  Center,
 } from '@chakra-ui/react';
 
 export const Registration = () => {
@@ -87,10 +88,10 @@ export const Registration = () => {
               maxWidth="300px"
             />
           </FormControl>
+          <Button colorScheme="blue" type="submit" width="100%" mt={10}>
+            Reg me!
+          </Button>
         </form>
-        <Button colorScheme="blue" type="submit" margin={10}>
-          Reg me!
-        </Button>
       </VStack>
     </ChakraProvider>
   );
