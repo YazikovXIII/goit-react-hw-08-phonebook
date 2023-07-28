@@ -38,10 +38,10 @@
 //   );
 // };
 
-import { Wrapper } from './Wrapper/Wrapper.styled';
+// import { Wrapper } from './Wrapper/Wrapper.styled';
 import { Route, Routes } from 'react-router-dom';
 import { Registration } from 'pages/Registration';
-import { Login } from 'pages/Login/Ligin';
+import { Login } from 'pages/Ligin';
 import { Home } from 'pages/Home';
 import { ContactPage } from 'pages/Contactpage';
 import { SharedLayout } from './SharedLayout';

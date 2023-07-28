@@ -28,10 +28,8 @@ export const Contact = ({ name, number, id }) => {
         <Text>{number}</Text>
         <Button
           colorScheme="blue"
-          // fontSize={20}
           borderRadius={10}
           padding={5}
-          // variant="outline"
           onClick={handleDelete}
           isLoading={loading}
           loadingText="Deleting"

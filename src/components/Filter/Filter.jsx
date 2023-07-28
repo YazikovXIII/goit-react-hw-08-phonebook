@@ -42,7 +42,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setFilter } from 'redux/filter/filterSlice';
 import { selectFilter } from 'redux/filter/filterSelectors';
 import { Input, Heading, ChakraProvider } from '@chakra-ui/react';
-import { Section } from 'components/Section/Section.styled';
+// import { Section } from 'components/Section/Section.styled';
 
 export const Filter = () => {
   const filter = useSelector(selectFilter);
