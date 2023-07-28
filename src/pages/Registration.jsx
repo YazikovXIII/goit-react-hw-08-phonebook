@@ -10,7 +10,6 @@ import {
   FormControl,
   FormLabel,
   ChakraProvider,
-  Center,
 } from '@chakra-ui/react';
 
 export const Registration = () => {
